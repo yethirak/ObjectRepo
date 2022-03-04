@@ -3,12 +3,12 @@ objects:
     topics:
       - name:'testtopic'
         jndiname:'testtopic'
-        pub:'owner'
+          pub:'owner'
       - name:'testtopic1'
         jndiname:'testtopic1'
-        pub:'owner'
+          pub:'owner'
     queues:
       - name:'testqueue1'
         jndiname:'testqueue1'
         ttl:100
-        sub:'owner'
+          sub:'owner'
