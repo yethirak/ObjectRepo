@@ -1,14 +1,14 @@
 objects:
   destinations:
     topics:
-      - name:"testtopic"
-        jndiname:"testtopic"
-        pub:"owner"
-      - name:"testtopic1"
-        jndiname:"testtopic1"
-        pub:"owner"
+      - name:'testtopic'
+        jndiname:'testtopic'
+        pub:'owner'
+      - name:'testtopic1'
+        jndiname:'testtopic1'
+        pub:'owner'
     queues:
-      - name:"testqueue1"
-        jndiname:"testqueue1"
+      - name:'testqueue1'
+        jndiname:'testqueue1'
         ttl:100
-        sub:"owner"
+        sub:'owner'
